@@ -1,0 +1,25 @@
+.Heading {
+  max-width: 1940px;
+  background-color: #ff6410;
+  width: 100vw;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0px;
+  .logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+  }
+  aside {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

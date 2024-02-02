@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  width: 100vw;
+  max-width: 1940px;
+  margin: 0 auto;
+  background-color: red;
+  .mainBody {
+    margin-top: 150px;
+    width: 100vw;
+    height: 100%;
+    background-color: blue;
+    max-width: 1940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      background-color: red;
+      width: 150px;
+      margin: 10px;
+    }
+  }
+}
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
+
+@media (prefers-color-scheme: dark) {
+}
+
+@keyframes rotate {
+}
