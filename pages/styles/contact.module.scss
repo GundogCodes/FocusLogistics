@@ -4,15 +4,215 @@
   justify-content: center;
   align-items: center;
   height: 200vh;
+  max-height: 3000px;
   width: 100vw;
   max-width: 1940px;
   margin: 0 auto;
-  background-color: pink;
   .ContactPageBody {
     margin-top: 150px;
     width: 100vw;
     height: 100%;
-    background-color: cyan;
     max-width: 1940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .ContactSection1 {
+      height: 35vh;
+      background-image: url("/images/semiBannerBlur2.jpg");
+      background-size: cover;
+      max-height: 700px;
+      color: white;
+      h2 {
+        height: 30%;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-left: 5%;
+        max-height: 300px;
+      }
+      h3 {
+        font-weight: 400;
+        max-width: 350px;
+        margin-left: 40%;
+        font-size: 20px;
+      }
+    }
+    .ContactSection2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      max-height: 700px;
+      align-items: center;
+      height: 35%;
+      .email {
+        font-size: 20px;
+      }
+      h4 {
+        font-weight: bolder;
+        font-size: 25px;
+      }
+      .contactInfoDiv {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        justify-content: space-evenly;
+
+        .contactInfo1 {
+          border: solid 4px #0077b6;
+          padding: 5px;
+          border-radius: 7px;
+          width: 48%;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+          align-items: center;
+          h3 {
+            font-weight: bolder;
+            font-size: 25px;
+          }
+          a {
+            font-size: 20px;
+          }
+        }
+        .contactInfo2 {
+          border: solid 4px #ff6410;
+          padding: 5px;
+          border-radius: 7px;
+          width: 48%;
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: column;
+
+          align-items: center;
+          h3 {
+            font-weight: bolder;
+            font-size: 25px;
+          }
+          a {
+            font-size: 20px;
+          }
+        }
+      }
+
+      h2 {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-left: 5%;
+      }
+      h4 {
+        padding: 10px;
+      }
+    }
+    .ContactSection3 {
+      background-color: orange;
+      height: 60vh;
+      h2 {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-left: 5%;
+      }
+      form {
+        height: 68%;
+
+        .inputSection {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          input {
+            width: 400px;
+            border-radius: 7px;
+          }
+          button {
+            background-color: red;
+            color: white;
+            border-radius: 7px;
+          }
+          #messageSection {
+            padding-bottom: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .ContactPage {
+    .ContactPageBody {
+      .ContactSection1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h2 {
+          width: 50vw;
+        }
+        h3 {
+          width: 40vw;
+          height: 90%;
+          font-size: 10px;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+      .ContactSection2 {
+        .email {
+        }
+        h4 {
+        }
+        .contactInfoDiv {
+          .contactInfo1 {
+            h3 {
+            }
+            a {
+            }
+          }
+          .contactInfo2 {
+            h3 {
+            }
+            a {
+            }
+          }
+        }
+
+        h2 {
+          margin: 0px;
+          font-size: 30px;
+          width: 100vw;
+        }
+        h4 {
+        }
+      }
+      .ContactSection3 {
+        h2 {
+          font-size: 30px;
+        }
+        form {
+          width: 100vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .inputSection {
+            width: 90vw;
+            input {
+              width: 90vw;
+            }
+            button {
+            }
+            #messageSection {
+            }
+          }
+        }
+      }
+    }
   }
 }

@@ -38,16 +38,6 @@ function Heading() {
             <MenuItem>Attend a Workshop</MenuItem>
           </MenuList>
         </Menu>
-        <Menu>
-          <MenuButton>DropDown</MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
-        </Menu>
       </aside>
     </div>
   );
