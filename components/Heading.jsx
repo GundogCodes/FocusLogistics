@@ -18,26 +18,8 @@ function Heading() {
         <Link href={"/"}>FOCUS LOGISTICS</Link>
       </div>
       <aside>
-        <Menu>
-          <MenuButton>Services</MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
-        </Menu>
-        <Menu>
-          <MenuButton>Contact</MenuButton>
-          <MenuList>
-            <MenuItem>Download</MenuItem>
-            <MenuItem>Create a Copy</MenuItem>
-            <MenuItem>Mark as Draft</MenuItem>
-            <MenuItem>Delete</MenuItem>
-            <MenuItem>Attend a Workshop</MenuItem>
-          </MenuList>
-        </Menu>
+        <Link href="/services">Services</Link>
+        <Link href="/contact">Contact</Link>
       </aside>
     </div>
   );
