@@ -15,11 +15,11 @@ function Heading() {
   return (
     <div className={styles.Heading}>
       <div className={styles.logoDiv}>
-        <Link href={"/"}>LOGO HERE</Link>
+        <Link href={"/"}>FOCUS LOGISTICS</Link>
       </div>
       <aside>
         <Menu>
-          <MenuButton>DropDown</MenuButton>
+          <MenuButton>Services</MenuButton>
           <MenuList>
             <MenuItem>Download</MenuItem>
             <MenuItem>Create a Copy</MenuItem>
@@ -29,7 +29,7 @@ function Heading() {
           </MenuList>
         </Menu>
         <Menu>
-          <MenuButton>DropDown</MenuButton>
+          <MenuButton>Contact</MenuButton>
           <MenuList>
             <MenuItem>Download</MenuItem>
             <MenuItem>Create a Copy</MenuItem>
