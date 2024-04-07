@@ -18,8 +18,12 @@ function Heading() {
         <Link href={"/"}>FOCUS LOGISTICS</Link>
       </div>
       <aside>
-        <Link href="/services">Services</Link>
-        <Link href="/contact">Contact</Link>
+        <Link className={styles.asideLinks} href="/services">
+          Services
+        </Link>
+        <Link className={styles.asideLinks} href="/contact">
+          Contact
+        </Link>
       </aside>
     </div>
   );

@@ -24,19 +24,16 @@ export default function Home() {
         <Heading />
         <div className={styles.mainBody}>
           <div className={styles.homeSection1}>
-            <div className={styles.section1Div1}>
-              <h2>ECOMMERCE DELIVERY SERVICE</h2>
-              <h1>Same-Day, Next-Day guaranteed!</h1>
-              <p>
-                eCommerce delivery experts at your service! We make any business
-                competitive with next-day shipping on a variety of products.
-                From your warehouse or store to your customer’s front door, we
-                ensure safe and swift delivery
-              </p>
+            <div className={styles.leftSection}>
+              <div className={styles.section1Div1}>
+                <h1>Tailored Shipping Solutions.</h1>
+              </div>
+              <div className={styles.section1Div2}>
+                <h1>Efficient, Reliable, and Personalized for You.</h1>
+              </div>
             </div>
-            <div className={styles.section1Div2}>
-              <h1>Efficient and Reliable Shipment Solutions</h1>
-              <h1>Tailored to Your Needs</h1>
+            <div className={styles.section1Div3}>
+              <h1>Welcome to Focus Logistics</h1>
             </div>
           </div>
           <div className={styles.homeSection2}>
@@ -44,21 +41,24 @@ export default function Home() {
               <h1>Why Choose Us?</h1>
               <ul>
                 <li>
-                  <span> At JMD Canada Transportation</span> is a leading
-                  shipping and logistics company serving Alberta and beyond.
+                  Welcome to<span> Focus Logistics & Transportation Ltd.</span>,
+                  your premier shipping and logistics partner in Alberta and
+                  beyond.
                 </li>
                 <li>
-                  We have two strategically located offices in Edmonton and
-                  Grand Prairie.
+                  With our establishment in November 2021, we've swiftly become
+                  a trusted name in the industry, proudly serving clients across
+                  all regions of Alberta.
                 </li>
                 <li>
-                  Our location sallow us to deliver goods to any destination
-                  within the province.
+                  we offer a diverse fleet of vehicles, including cars,
+                  minivans, one-ton, and five-ton trucks, ensuring we meet your
+                  transportation needs efficiently and reliably.
                 </li>
                 <li id={styles.longLi}>
-                  We maintain direct control over all operations through our
-                  extensive network of terminals and dedicated team of
-                  professionals.
+                  Strategically positioned, we boast two operational offices in
+                  Edmonton and Grand Prairie, along with an additional presence
+                  in Calgary.
                 </li>
               </ul>
             </div>
