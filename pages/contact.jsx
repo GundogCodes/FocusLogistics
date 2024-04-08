@@ -12,9 +12,10 @@ function contact() {
         <div className={styles.ContactSection1}>
           <h2>Contact us</h2>
           <h3>
-            Welcome to the JMD Canada. We're here to help you with any
-            questions, inquiries, or feedback you may have. Please feel free to
-            reach out to us using the contact information provided below.
+            Hello from Focus Logistics & Transportation LTD.! We're committed to
+            assisting you with any inquiries, questions, or feedback you may
+            have. Don't hesitate to reach out to us using the contact details
+            provided below. We're here to help!"
           </h3>
         </div>
         <div className={styles.ContactSection2}>
@@ -22,18 +23,18 @@ function contact() {
           <div className={styles.contactInfoDiv}>
             <div className={styles.contactInfo1}>
               <h3>Edmonton</h3>
-              <h3>Manpal Taya</h3>
-              <a href="tel:+7809524214">(780) 952-4214</a>
+              <h3>Mandeep Singh</h3>
+              <a href="tel:+5875914001">(587) 591-4001</a>
             </div>
             <div className={styles.contactInfo2}>
               <h3>Grande Prairie</h3>
-              <h3>Abhishek Taya</h3>
-              <a href="tel:+5879914947">(780) 220-4214</a>
+              <h3>Ompal Taya</h3>
+              <a href="tel:+7802451258">(780) 245-1258</a>
             </div>
           </div>
           <h4>Email</h4>
-          <a className={styles.email} href="mailto:jmd.mani@gmail.com">
-            jmd.mani@gmail.com
+          <a className={styles.email} href="mailto:focuscanadaltd@gmail.com">
+            focuscanadaltd@gmail.com
           </a>
         </div>
         <div className={styles.ContactSection3}>

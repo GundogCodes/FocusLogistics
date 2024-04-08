@@ -9,28 +9,48 @@
   justify-content: space-evenly;
   color: white;
   top: 0px;
+  background: rgb(63, 138, 153);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 138, 153, 1) 10%,
+    rgba(107, 189, 148, 1) 100%
+  );
   .logoDiv {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30vw;
+    width: 40vw;
     height: 100%;
+    background: rgb(63, 138, 153);
+    background: linear-gradient(
+      0deg,
+      rgba(63, 138, 153, 1) 10%,
+      rgba(107, 189, 148, 1) 100%
+    );
     img {
       width: 300px;
     }
   }
   aside {
-    width: 70vw;
+    width: 60vw;
 
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(63, 138, 153);
-    transform: translateX(5vw) skewX(20deg);
+    background: rgb(63, 138, 153);
+    background: linear-gradient(
+      0deg,
+      rgba(63, 138, 153, 1) 10%,
+      rgba(107, 189, 148, 1) 100%
+    );
+
     .asideLinks {
-      transform: skewX(-20deg);
       font-size: 20px;
+    }
+    .asideLinks:hover {
+      color: aqua;
     }
   }
 }
