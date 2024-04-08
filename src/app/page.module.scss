@@ -21,11 +21,12 @@
       background-size: cover;
       background-position-y: -450px;
       width: 100%;
-      height: 50vh;
+      height: 35vh;
       max-height: 800px;
       display: flex;
       align-items: center;
       flex-direction: row-reverse;
+      overflow-x: hidden;
       .leftSection {
         width: 60%;
         background-color: none;
@@ -41,14 +42,16 @@
           align-items: flex-end;
           justify-content: center;
           color: white;
+
           h1 {
             transform: skewX(20deg);
-            font-size: 25px;
-            width: 50%;
+            font-size: 3vh;
+            width: 90%;
             height: 50%;
+            max-width: 600px;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             font-weight: bold;
           }
@@ -60,15 +63,17 @@
           transform: skewX(20deg) translateX(10vw);
           background-color: rgb(107, 189, 148);
           color: white;
+
           h1 {
             margin-top: 10px;
             transform: skewX(-20deg);
-            font-size: 20px;
-            width: 60%;
+            font-size: 2vh;
+            width: 80%;
+            max-width: 500px;
             height: 50%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             font-weight: bold;
           }
@@ -114,6 +119,7 @@
         padding: 2px;
         box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
         background-color: rgb(107, 189, 148);
+        color: white;
         h1 {
           font-size: 40px;
           display: flex;
@@ -126,6 +132,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          color: black;
           li {
             span {
               font-weight: bold;
@@ -162,7 +169,6 @@
       align-items: center;
       justify-content: space-evenly;
       max-height: 800px;
-
       .text {
         display: flex;
         justify-content: center;
