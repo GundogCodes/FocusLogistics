@@ -36,10 +36,7 @@ function services() {
           {/* <img src="https://www.transportationservices.ca/wp-content/uploads/2018/06/truck-transportation.jpg" /> */}
 
           <div className={styles.sideSection}>
-            <h1>
-              Logistics <br />
-              Solutions{" "}
-            </h1>
+            <h1>Logistics Solutions </h1>
             <h2>
               We offer reliable shipping services that ensure smooth
               door-to-door delivery, featuring competitive rates customized to
@@ -62,13 +59,13 @@ function services() {
           <h2></h2>
           <ul>
             <li className="log" onClick={clickedAService}>
-              Delivery & Logistics Services
+              <h3>Delivery & Logistics Services</h3>
             </li>
             <li className="ecom" onClick={clickedAService}>
-              Medicinal Deliveries
+              <h3>Medicinal Deliveries</h3>
             </li>
             <li className="auto" onClick={clickedAService}>
-              Auto Parts Deliveries
+              <h3>Auto Parts Deliveries</h3>
             </li>
           </ul>
 
