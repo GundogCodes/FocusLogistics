@@ -15,7 +15,7 @@ function contact() {
             Hello from Focus Logistics & Transportation LTD.! We're committed to
             assisting you with any inquiries, questions, or feedback you may
             have. Don't hesitate to reach out to us using the contact details
-            provided below. We're here to help!"
+            provided below. We're here to help!
           </h3>
         </div>
         <div className={styles.ContactSection2}>

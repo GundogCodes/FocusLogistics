@@ -142,8 +142,8 @@ function services() {
                     <h4>Streamlined transportation process</h4>
                   </div>
                   <p>
-                    At JMD Canada Transportation, we have honed our expertise in
-                    the efficient transportation of auto parts, catering
+                    At Focus Logistics, we have honed our expertise in the
+                    efficient transportation of auto parts, catering
                     specifically to the needs of automotive businesses. With a
                     keen understanding of the automotive industry's demands and
                     challenges, we prioritize the timely and reliable delivery
