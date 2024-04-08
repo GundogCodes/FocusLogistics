@@ -88,7 +88,7 @@ export default function Home() {
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
+                <AccordionPanel className={styles.accordionPara} pb={4}>
                   We believe in proactive customer care at Focus Logistics. Our
                   dedicated team goes above and beyond to anticipate and address
                   your needs before they arise. Whether it's providing real-time
@@ -110,7 +110,7 @@ export default function Home() {
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
+                <AccordionPanel className={styles.accordionPara} pb={4}>
                   At Focus Logistics, we prioritize precision in every aspect of
                   our delivery solutions. We meticulously plan and execute each
                   shipment, ensuring timely and accurate deliveries to your
@@ -133,7 +133,7 @@ export default function Home() {
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
+                <AccordionPanel className={styles.accordionPara} pb={4}>
                   We view our client relationships as partnerships built on
                   collaboration and mutual success. We work closely with you to
                   understand your unique requirements and tailor our services to
@@ -156,7 +156,7 @@ export default function Home() {
                     <AccordionIcon />
                   </AccordionButton>
                 </h3>
-                <AccordionPanel pb={4}>
+                <AccordionPanel className={styles.accordionPara} pb={4}>
                   Safety is our top priority. We maintain a rigorous
                   safety-first culture that permeates every aspect of our
                   operations. From comprehensive driver training programs to
@@ -180,7 +180,7 @@ export default function Home() {
               step of the way
             </div>
             <div className={styles.s3CardDiv}>
-              <div id={styles.s3card}>
+              <div id={styles.topCard} className={styles.s3card}>
                 <img src="/images/worker3.jpg" />
                 <p>
                   <span> At Focus Logistics</span> we recognize the paramount
@@ -193,7 +193,7 @@ export default function Home() {
                   forefront of all we do.
                 </p>
               </div>
-              <div id={styles.s3card}>
+              <div className={styles.s3card}>
                 <img src="/images/worker2.jpg" />
                 <p>
                   In a dynamic industry landscape, we thrive on innovation to
@@ -206,7 +206,7 @@ export default function Home() {
                   excellence.
                 </p>
               </div>
-              <div id={styles.s3card}>
+              <div className={styles.s3card}>
                 <img src="/images/multiTruck.jpg" />
                 <p>
                   We wholeheartedly recognize the paramount importance of
@@ -219,7 +219,7 @@ export default function Home() {
                   way.
                 </p>
               </div>
-              <div id={styles.s3card}>
+              <div className={styles.s3card}>
                 <img src="/images/worker4.jpg" />
                 <p>
                   We believe in fostering collaborative partnerships with our

@@ -193,7 +193,7 @@
         align-items: center;
         background-color: rgb(63, 138, 153);
         border-radius: 7px;
-        #s3card {
+        .s3card {
           max-height: 550px;
           width: 40%;
           max-width: 300px;
@@ -256,9 +256,12 @@
 
 @media (max-width: 900px) {
   .main {
-    max-height: 5000px;
+    max-height: 6000px;
+    background-color: rgb(63, 138, 153);
     .mainBody {
       .homeSection1 {
+        margin-top: 1vh;
+        height: 30vh;
         .section1Div1 {
           h2,
           h1,
@@ -275,18 +278,27 @@
           }
         }
         .section1Div2 {
-          font-size: 20px;
+        }
+        .section1Div3 {
+          h1 {
+            font-size: 20px;
+            height: 100%;
+            display: flex;
+            padding-left: 10px;
+            align-items: center;
+          }
         }
       }
 
       .homeSection2 {
-        height: 130vh;
+        height: 150vh;
         max-height: 1200px;
         flex-direction: column;
         justify-content: space-evenly;
         .accordion {
           width: 100vw;
-          height: 60vh;
+          height: 80vh;
+          max-height: 1000px;
         }
         .text {
           width: 100vw;
@@ -300,14 +312,20 @@
             justify-content: flex-start;
             overflow-y: scroll;
             li {
-              height: 10vh;
+              height: 20vh;
 
               span {
               }
             }
+            #longLi {
+              height: 20vh;
+              max-height: 400px;
+            }
           }
         }
-        .accordionValues {
+
+        .accordionPara {
+          overflow-y: scroll;
         }
       }
       .homeSection3 {
@@ -317,6 +335,7 @@
         .text {
           width: 95vw;
           height: 40vh;
+          font-size: 15px;
           span {
             height: 10vh;
             width: 95vw;
@@ -327,15 +346,20 @@
           flex-direction: column;
           overflow-y: scroll;
           justify-content: flex-start;
-          #s3card {
+          align-items: center;
+
+          .s3card {
             width: 95vw;
-            margin-top: 5vh;
+            margin-top: 15vh;
             img {
             }
             p {
               span {
               }
             }
+          }
+          #topCard {
+            margin-top: 5vh;
           }
         }
       }
