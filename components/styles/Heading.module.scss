@@ -56,3 +56,19 @@
     }
   }
 }
+@media (max-width: 900px) {
+  .Heading {
+    .logoDiv {
+      img {
+        transform: scale(0.9);
+        transform: scaleX(1.5);
+      }
+    }
+    aside {
+      .asideLinks {
+      }
+      .asideLinks:hover {
+      }
+    }
+  }
+}
