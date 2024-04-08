@@ -91,7 +91,7 @@ function services() {
                     solutions that meet and exceed your expectations.
                   </p>
                   <div className={styles.graphicAside}>
-                    <img src="/images/d&l.jpg" />
+                    <img src="/images/worker5.jpg" />
                     <h4>Customized solutions tailored to your needs</h4>
                     <h4>Efficient and secure transportation services</h4>
                     <h4>Dedicated team committed to excellence</h4>
@@ -107,7 +107,7 @@ function services() {
                 <h1>Medicinal Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/ecom.jpg" />
+                    <img src="/images/worker6.jpg" />
                     <h4>Specialized services for urgent deliveries</h4>
                     <h4>Swift and secure transportation of medical supplies</h4>
                     <h4>Reliable delivery services for critical shipments</h4>
@@ -139,7 +139,7 @@ function services() {
                 <h1>Auto Parts Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/auto.jpg" />
+                    <img src="/images/worker7.jpg" />
                     <h4>Efficient transportation of auto parts</h4>
                     <h4>Timely and reliable delivery services</h4>
                     <h4>Streamlined transportation process</h4>
