@@ -181,7 +181,7 @@ export default function Home() {
             </div>
             <div className={styles.s3CardDiv}>
               <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1189954840/photo/truck-driver-holding-tablet-and-checking-route-for-new-destination-in-background-parked-truck.jpg?s=612x612&w=0&k=20&c=875cGSOE9P3GHiltFtqxIwELrZARfiNcqC7cD-xW348=" />
+                <img src="/images/worker3.jpg" />
                 <p>
                   <span> At Focus Logistics</span> we recognize the paramount
                   significance of delivering efficient and secure services to
@@ -194,7 +194,7 @@ export default function Home() {
                 </p>
               </div>
               <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1285071058/photo/smiling-chief-standing-in-auto-park-and-holding-tablet-in-background-are-trucks-firm-for.jpg?s=612x612&w=0&k=20&c=l2-AIhwSromV_DHpGJmPqL1U2v9cBQLhjIvPTnV23vY=" />
+                <img src="/images/worker2.jpg" />
                 <p>
                   In a dynamic industry landscape, we thrive on innovation to
                   maintain our leading position. Constantly exploring novel
@@ -207,7 +207,7 @@ export default function Home() {
                 </p>
               </div>
               <div id={styles.s3card}>
-                <img src="https://media.istockphoto.com/id/1396633199/photo/happy-truck-driver-looking-through-side-window-while-driving-his-truck.jpg?s=612x612&w=0&k=20&c=VA7ggpLITCRxjuhKrYlwkFc4-M7e2Q7aie_mYQqVkwg=" />
+                <img src="/images/multiTruck.jpg" />
                 <p>
                   We wholeheartedly recognize the paramount importance of
                   delivering efficient and secure services. Trust in our
@@ -217,6 +217,18 @@ export default function Home() {
                   remains unwavering throughout the entire transportation
                   process, guaranteeing your peace of mind every step of the
                   way.
+                </p>
+              </div>
+              <div id={styles.s3card}>
+                <img src="/images/worker4.jpg" />
+                <p>
+                  We believe in fostering collaborative partnerships with our
+                  clients, founded on a shared commitment to mutual growth and
+                  success. Our approach is centered around actively engaging
+                  with you to gain a deep understanding of your individual needs
+                  and preferences. Through transparent communication and a
+                  dedication to customization, we strive to deliver tailored
+                  solutions that not only meet but exceed your expectations.
                 </p>
               </div>
             </div>
@@ -231,8 +243,7 @@ export default function Home() {
             </Text>
           </div>
           <div className={styles.homeSection4}>
-            Logo
-            {/* <img src="/images/semiBlur1.jpg"></img> */}
+            <img src="/images/logo.png" />
           </div>
         </div>
         <Footer />

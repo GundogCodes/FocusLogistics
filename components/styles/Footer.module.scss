@@ -24,13 +24,15 @@
         text-decoration: underline;
       }
       .footerSection1 {
+        border-top: solid 1px white;
         height: 100%;
-        width: 45%;
+        width: 75%;
 
         .contactSection {
           height: 90%;
           display: flex;
           justify-content: space-evenly;
+          border-top: solid 1px white;
           .contactSection1 {
             width: 45%;
 
@@ -59,6 +61,7 @@
       .footerSection2 {
         height: 100%;
         width: 35%;
+        border-top: solid 1px white;
         h3 {
           width: 100%;
           font-size: larger;
@@ -67,6 +70,7 @@
           text-decoration: underline;
         }
         .industriesDiv {
+          border-top: solid 1px white;
           padding-left: 10%;
           height: 90%;
           border-left: solid 1px white;
@@ -76,6 +80,7 @@
         }
       }
       .footerSection3 {
+        border-top: solid 1px white;
         width: 20%;
         height: 100%;
         h3 {
@@ -86,6 +91,7 @@
           text-decoration: underline;
         }
         .linksDiv {
+          border-top: solid 1px white;
           height: 90%;
           border-left: solid 1px white;
 

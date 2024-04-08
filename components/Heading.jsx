@@ -15,7 +15,9 @@ function Heading() {
   return (
     <div className={styles.Heading}>
       <div className={styles.logoDiv}>
-        <Link href={"/"}>FOCUS LOGISTICS</Link>
+        <Link href={"/"}>
+          <img src="/images/logo.png" />
+        </Link>
       </div>
       <aside>
         <Link className={styles.asideLinks} href="/services">

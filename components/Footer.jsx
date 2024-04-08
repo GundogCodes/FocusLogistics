@@ -13,7 +13,7 @@ function Footer() {
                 <h3>Edmonton</h3>
                 <div className={styles.infoSection}>
                   <h5>10303 65 Ave NW T6H 1V1</h5>
-                  <h5>780-952-4214</h5>
+                  <h5>(587) 591-4001</h5>
                 </div>
               </div>
               <div className={styles.contactSection2}>
@@ -23,15 +23,20 @@ function Footer() {
                   <h5>587-991-4947</h5>
                 </div>
               </div>
+              <div className={styles.contactSection2}>
+                <h3>Calgary</h3>
+                <div className={styles.infoSection}>
+                  <h5>250 Aero Link NE T2E 8Z9</h5>
+                  <h5>587-991-4947</h5>
+                </div>
+              </div>
             </div>
           </div>
           <div className={styles.footerSection2}>
             <h3>Industries</h3>
             <div className={styles.industriesDiv}>
               <h5>Delivery & Logistics</h5>
-              <h5>E-Commerce Deliveries</h5>
-              <h5>Blood Bank Deliveries</h5>
-              <h5>Dangerous Goods Deliveries</h5>
+              <h5>Medicinal Deliveries</h5>
               <h5>Auto Parts Deliveries</h5>
             </div>
           </div>
@@ -51,7 +56,7 @@ function Footer() {
           </div>
         </div>
         <div className={styles.lowerSection}>
-          <h4> &#169; 2024 JMD Canada. All Rights Reserved.</h4>
+          <h4> &#169; 2024 Focus Logistics. All Rights Reserved.</h4>
           <h4>
             <Link href="/">Home</Link>
           </h4>
