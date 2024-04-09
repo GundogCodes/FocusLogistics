@@ -16,7 +16,7 @@ function Heading() {
     <div className={styles.Heading}>
       <div className={styles.logoDiv}>
         <Link href={"/"}>
-          <img src="/images/logo.png" />
+          <img src="/images/logo2.png" />
         </Link>
       </div>
       <aside>

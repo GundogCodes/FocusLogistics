@@ -243,7 +243,7 @@ export default function Home() {
             </Text>
           </div>
           <div className={styles.homeSection4}>
-            <img src="/images/logo.png" />
+            <img className={styles.logo2} src="/images/logo2.png" />
           </div>
         </div>
         <Footer />

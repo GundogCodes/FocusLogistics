@@ -227,8 +227,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
-        width: 300px;
+      .logo2 {
+        width: 500px;
       }
     }
     .homeSection5 {
@@ -370,9 +370,9 @@
         align-items: center;
         justify-content: center;
         background-size: cover;
-        img {
-          width: 200px;
-          height: 200px;
+        .logo2 {
+          width: 300px;
+          height: 300px;
         }
       }
       .homeSection5 {
