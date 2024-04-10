@@ -163,6 +163,8 @@
       .lowerSection {
         font-size: 10px;
         align-items: flex-start;
+        height: 10vh;
+        max-height: 20px;
         h4:hover {
           cursor: pointer;
         }

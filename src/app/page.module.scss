@@ -105,7 +105,7 @@
       align-items: center;
       flex-direction: row-reverse;
       justify-content: space-evenly;
-      background-color: rgb(240, 240, 240);
+      background-color: rgb(250, 250, 250);
       .accordion {
         background-color: rgb(63, 138, 153);
         color: white;
@@ -115,7 +115,7 @@
       .text {
         width: 40%;
         height: 80%;
-        background-color: rgb(248, 250, 250);
+        background-color: rgb(250, 250, 250);
         border-radius: 4px;
         padding: 2px;
         box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
@@ -135,6 +135,7 @@
           align-items: center;
           color: black;
           li {
+            background-color: red;
             span {
               font-weight: bold;
             }
@@ -149,6 +150,12 @@
           #longLi {
             height: 15vh;
             max-height: 100px;
+            border-radius: 4px;
+            border: none;
+          }
+          #listItems {
+            border-radius: 4px;
+            border: none;
           }
         }
       }
@@ -228,7 +235,7 @@
       justify-content: center;
       align-items: center;
       .logo2 {
-        width: 500px;
+        width: 300px;
       }
     }
     .homeSection5 {
@@ -240,7 +247,7 @@
       align-items: center;
       justify-content: space-evenly;
       font-size: 25px;
-      background-color: rgb(240, 240, 240);
+      background-color: rgb(255, 255, 255);
       span {
         color: white;
         background-color: rgb(63, 138, 153);
@@ -260,6 +267,7 @@
     background-color: rgb(63, 138, 153);
     .mainBody {
       .homeSection1 {
+        background-color: red;
         margin-top: 1vh;
         height: 30vh;
         .section1Div1 {
@@ -268,13 +276,8 @@
           p {
           }
           h1 {
-            font-size: 10px;
           }
           h2 {
-          }
-          font-size: 10px;
-          p {
-            font-size: 10px;
           }
         }
         .section1Div2 {

@@ -40,17 +40,17 @@ export default function Home() {
             <div className={styles.text}>
               <h1>Why Choose Us?</h1>
               <ul>
-                <li>
+                <li id={styles.listItems}>
                   Welcome to<span> Focus Logistics & Transportation Ltd.</span>,
                   your premier shipping and logistics partner in Alberta and
                   beyond.
                 </li>
-                <li>
+                <li id={styles.listItems}>
                   With our establishment in November 2021, we've swiftly become
                   a trusted name in the industry, proudly serving clients across
                   all regions of Alberta.
                 </li>
-                <li>
+                <li id={styles.listItems}>
                   we offer a diverse fleet of vehicles, including cars,
                   minivans, one-ton, and five-ton trucks, ensuring we meet your
                   transportation needs efficiently and reliably.

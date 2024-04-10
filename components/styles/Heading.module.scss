@@ -58,9 +58,16 @@
 @media (max-width: 900px) {
   .Heading {
     .logoDiv {
+      width: 40vw;
+
       img {
-        transform: scale(0.9);
-        transform: scaleX(1.5);
+        height: 100%;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scaleX(1);
+        padding-bottom: 0%;
       }
     }
     aside {
