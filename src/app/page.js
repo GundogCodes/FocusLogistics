@@ -128,7 +128,7 @@ export default function Home() {
                       textAlign="left"
                       borderBottomColor={"white"}
                     >
-                      Collaborative Partnership Approach:
+                      Collaborative Partnership Approach
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
