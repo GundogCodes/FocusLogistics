@@ -104,7 +104,7 @@ function services() {
                 <h1>Medicinal Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/worker6.jpg" />
+                    <img src="/images/worker7.jpg" />
                     <h4>Specialized services for urgent deliveries</h4>
                     <h4>Swift and secure transportation of medical supplies</h4>
                     <h4>Reliable delivery services for critical shipments</h4>
@@ -136,7 +136,7 @@ function services() {
                 <h1>Auto Parts Deliveries</h1>
                 <div className={styles.servicesInnerDiv}>
                   <div className={styles.graphicAside}>
-                    <img src="/images/worker7.jpg" />
+                    <img src="/images/worker6.jpg" />
                     <h4>Efficient transportation of auto parts</h4>
                     <h4>Timely and reliable delivery services</h4>
                     <h4>Streamlined transportation process</h4>
