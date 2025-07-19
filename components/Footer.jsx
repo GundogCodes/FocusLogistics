@@ -12,7 +12,7 @@ function Footer() {
               <div className={styles.contactSection1}>
                 <h3>Edmonton</h3>
                 <div className={styles.infoSection}>
-                  <h5>10303 65 Ave NW T6H 1V1</h5>
+                  <h5>5626 72 Street T6B3J4</h5>
                   <h5>(587) 591-4001</h5>
                 </div>
               </div>

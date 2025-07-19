@@ -22,14 +22,14 @@ function contact() {
           <h2>Contact Information</h2>
           <div className={styles.contactInfoDiv}>
             <div className={styles.contactInfo1}>
-              <h3>Edmonton</h3>
+              {/* <h3>Edmonton</h3>
               <h3>Mandeep Singh</h3>
-              <a href="tel:+5875914001">(587) 591-4001</a>
+              <a href="tel:+5875914001">(587) 591-4001</a> */}
             </div>
             <div className={styles.contactInfo2}>
-              <h3>Grande Prairie</h3>
+              {/* <h3>Grande Prairie</h3>
               <h3>Ompal Taya</h3>
-              <a href="tel:+7802451258">(780) 245-1258</a>
+              <a href="tel:+7802451258">(780) 245-1258</a> */}
             </div>
           </div>
           <h4>Email</h4>
