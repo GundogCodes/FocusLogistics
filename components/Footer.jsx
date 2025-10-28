@@ -20,14 +20,14 @@ function Footer() {
                 <h3>Grand Prairie</h3>
                 <div className={styles.infoSection}>
                   <h5>Unit 206, 9804 100 Ave T8V 0T8</h5>
-                  <h5>587-991-4947</h5>
+                  <h5>780-935-8949</h5>
                 </div>
               </div>
               <div className={styles.contactSection2}>
                 <h3>Calgary</h3>
                 <div className={styles.infoSection}>
                   <h5>250 Aero Link NE T2E 8Z9</h5>
-                  <h5>587-991-4947</h5>
+                  <h5>780-245-1258</h5>
                 </div>
               </div>
             </div>

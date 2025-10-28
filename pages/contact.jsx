@@ -29,7 +29,7 @@ function contact() {
             <div className={styles.contactInfo2}>
               <h3>Grande Prairie</h3>
               <h3>Ompal Taya</h3>
-              <a href="tel:+15879914947">(587) 991-4947</a>
+              <a href="tel:+17802451258">(780) 245-1258</a>
             </div>
           </div>
           <h4>Email</h4>
